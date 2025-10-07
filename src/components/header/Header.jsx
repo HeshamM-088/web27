@@ -57,6 +57,8 @@ const NavList = () => {
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
 
+  console.log("hello");
+
   const handleWindowResize = () =>
     window.innerWidth >= 960 && setOpenNav(false);
 
@@ -67,8 +69,9 @@ const Header = () => {
       window.removeEventListener("resize", handleWindowResize);
     };
   }, []);
+
   return (
-    <Navbar className="mx-auto max-w-screen-4xl px-6 py-3 bg-teal-900 rounded-none border-0">
+    <Navbar className="mx-auto max-w-screen-4xl px-6 py-3 bg-blue-600 rounded-none border-0">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
