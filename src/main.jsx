@@ -11,6 +11,7 @@ createRoot(document.getElementById("root")).render(
     <ThemeProvider>
       <BrowserRouter>
         {/* hi */}
+        {/* hi 2 */}
         <App />
       </BrowserRouter>
     </ThemeProvider>
