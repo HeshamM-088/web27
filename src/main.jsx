@@ -10,6 +10,7 @@ createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <ThemeProvider>
       <BrowserRouter>
+        {/* hi */}
         <App />
       </BrowserRouter>
     </ThemeProvider>
